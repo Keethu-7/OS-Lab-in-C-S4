@@ -16,7 +16,7 @@ int main() {
     scanf("%d",&n);
     for (i=0;i<n;i++) {
         p[i].pid=i;
-        printf("Burst time of the process %d: ",i);
+        printf("Burst time of the process %d: ",i+1);
         scanf("%d",&p[i].btime);
     }
     p[0].wtime = 0;
