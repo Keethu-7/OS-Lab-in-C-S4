@@ -44,7 +44,7 @@ int main() {
     
     printf("\nProcess\tBT\tCT\tTAT\tWT\n\n\n");
     for(i=0;i<n;i++) {
-        printf("\nP%d\t %d\t %d\t %d\t %d\n",i+1,bt[i],ct[i],tat[i],wt[i]);
+        printf("\nP%d\t %d\t %d\t %d\t %d\n",p[i],bt[i],ct[i],tat[i],wt[i]);
     }
    
     printf("\nAverage TurnaroundTime:%f\n",totaltat/n);
